@@ -216,7 +216,7 @@ function commit_and_push_changes() {
     git add .
 
     echo "Committing changes..."
-    git commit -m "Update repository contents"
+    git commit -m "another change"
 
     echo "Pushing changes to the remote repository..."
     git push -u origin main
